@@ -7,8 +7,8 @@ ARG APACHE_VERSION=2.4.62-r0
 
 RUN apk add --no-cache \
     lighttpd \
-    lighttpd-mod-webdav \
-    lighttpd-mod-auth \
+    lighttpd-mod_auth \
+    lighttpd-mod_webdav \
     apache2-utils
 
 RUN mkdir -p /etc/lighttpd
