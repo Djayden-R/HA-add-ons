@@ -13,4 +13,5 @@ options:
 schema:
   discord_token: str
 ports: {}
-environment: []
+environment:
+  - DISCORD_TOKEN=${discord_token}
