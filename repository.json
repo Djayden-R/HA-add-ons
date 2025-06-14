@@ -1,4 +1,12 @@
 {
+  "name": "Custom HA add-ons",
+  "slug": "custom_addons",
+  "description": "Mijn custom Home Assistant add-ons",
+  "homepage": "https://github.com/Djayden-R/HA-add-ons",
+  "maintainer": "DjaydenR",
+  "sources": [
+    "https://github.com/Djayden-R/HA-add-ons"
+  ],
   "addons": [
     {
       "name": "Discord Huh Bot",
