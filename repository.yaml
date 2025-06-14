@@ -1,3 +1,11 @@
-name: Custom HA add-ons
-url: https://github.com/Djayden-R/HA-add-ons
-maintainer: DjaydenR
+addons:
+  - name: Discord Huh Bot
+    slug: discord_huh_bot
+    description: Een simpele Discord bot met /huh command die 'what?' zegt
+    version: "1.0"
+    url: https://github.com/Djayden-R/HA-add-ons/tree/main/discord_huh_bot
+  - name: Webdav
+    slug: webdav
+    description: Webdav add-on voor HA
+    version: "1.0"
+    url: https://github.com/Djayden-R/HA-add-ons/tree/main/webdav
