@@ -1,0 +1,15 @@
+{
+  "name": "Simple Python Add-on",
+  "version": "1.0",
+  "slug": "simple_python_addon",
+  "description": "Een minimale Python add-on voor Home Assistant",
+  "startup": "application",
+  "boot": "auto",
+  "host_network": true,
+  "hassio_api": true,
+  "hassio_role": "default",
+  "privileged": [],
+  "options": {},
+  "schema": {},
+  "image": "local/simple_python_addon"
+}
